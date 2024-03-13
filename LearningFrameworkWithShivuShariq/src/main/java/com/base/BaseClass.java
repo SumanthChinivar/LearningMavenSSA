@@ -26,6 +26,7 @@ import com.utility.FrameworkConstants;
 
 public class BaseClass implements FrameworkConstants {
 
+	//Base class
 	public WebDriver driver;
 	public SoftAssert softAssert;
 	WelcomePage welcome ;
