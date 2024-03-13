@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Shopping cart page is opened]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Products page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[User entered correct recipient name]]>
+    </line>
+    <line>
+      <![CDATA[User entered correct recipient email]]>
+    </line>
+    <line>
+      <![CDATA[User added a product to wish list button]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-11T16:45:06 IST" name="Suite" finished-at="2024-03-11T16:45:27 IST" duration-ms="20357">
+    <groups>
+    </groups>
+    <test started-at="2024-03-11T16:45:06 IST" name="Test" finished-at="2024-03-11T16:45:27 IST" duration-ms="20357">
+      <class name="testCases.AddToWishListTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testCases.AddToWishListTest@2e385cce]" started-at="2024-03-11T16:45:15 IST" name="launchBrowser" finished-at="2024-03-11T16:45:20 IST" duration-ms="4462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.AddToWishListTest@2e385cce]" started-at="2024-03-11T16:45:20 IST" name="login" finished-at="2024-03-11T16:45:22 IST" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addToWishList()[pri:0, instance:testCases.AddToWishListTest@2e385cce]" started-at="2024-03-11T16:45:22 IST" name="addToWishList" finished-at="2024-03-11T16:45:25 IST" duration-ms="3687" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Products page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[User entered correct recipient name]]>
+            </line>
+            <line>
+              <![CDATA[User entered correct recipient email]]>
+            </line>
+            <line>
+              <![CDATA[User added a product to wish list button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToWishList -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.AddToWishListTest@2e385cce]" started-at="2024-03-11T16:45:25 IST" name="logout" finished-at="2024-03-11T16:45:26 IST" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testCases.AddToWishListTest@2e385cce]" started-at="2024-03-11T16:45:26 IST" name="quit" finished-at="2024-03-11T16:45:27 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testCases.AddToWishListTest -->
+      <class name="testCases.ClickOnShoppingCartLinkTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testCases.ClickOnShoppingCartLinkTest@3c77d488]" started-at="2024-03-11T16:45:06 IST" name="launchBrowser" finished-at="2024-03-11T16:45:12 IST" duration-ms="5493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testCases.ClickOnShoppingCartLinkTest@3c77d488]" started-at="2024-03-11T16:45:12 IST" name="login" finished-at="2024-03-11T16:45:14 IST" duration-ms="1660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickOnShoppingCartLink()[pri:0, instance:testCases.ClickOnShoppingCartLinkTest@3c77d488]" started-at="2024-03-11T16:45:14 IST" name="clickOnShoppingCartLink" finished-at="2024-03-11T16:45:14 IST" duration-ms="696" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Shopping cart page is opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickOnShoppingCartLink -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.ClickOnShoppingCartLinkTest@3c77d488]" started-at="2024-03-11T16:45:14 IST" name="logout" finished-at="2024-03-11T16:45:15 IST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testCases.ClickOnShoppingCartLinkTest@3c77d488]" started-at="2024-03-11T16:45:15 IST" name="quit" finished-at="2024-03-11T16:45:15 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testCases.ClickOnShoppingCartLinkTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
